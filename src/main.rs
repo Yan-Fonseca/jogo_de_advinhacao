@@ -6,7 +6,7 @@ use std::cmp::Ordering;
 use std::io;
 
 fn main() {
-    println!("Advinhe o número!");
+    println!("Adivinhe o número!");
 
     let numero_secreto = rand::thread_rng().gen_range(1,101); // Gera um número entre 1(incluído) e 101(não incluído).
 
